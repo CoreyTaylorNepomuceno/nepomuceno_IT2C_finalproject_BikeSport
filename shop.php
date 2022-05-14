@@ -21,169 +21,166 @@
         <div class="container">
             <div class="header-top">
                 <ul class="pull-left">
-                <?php
-echo '<li>';
-echo '<a href="#">';
-echo 'PHP';
-echo '<span class="fa fa-angle-down tz-down"></span>';
-echo '</a>';
-echo '<ul class="sub-menu">';
-echo '<li>';
-echo '<a href="#">EURO</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">USD</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">PHP</a>';
-echo '</li>';
-echo '</ul>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">';
-echo 'English';
-echo '<span class="fa fa-angle-down tz-down"></span>';
-echo '</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">Call us:   09270454469</a>';
-echo '</li>';
-?>
-                </ul>
-                <ul class="pull-right">
-                <?php
-echo '<li>';
-echo '<a href="shop-register.html">My Account</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">Wishlist</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop-cart.html">My Cart</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop-checkout.html">Checkout</a>';
-echo '</li>';
-echo '<li class="tz-header-login">';
-?>
+                        <?php
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'PHP';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="#">EURO</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">USD</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">PHP</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'English';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Call us:   09270454469</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">My Account</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Wishlist</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">My Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Checkout</a>';
+                        echo '</li>';
+                        echo '<li class="tz-header-login">';
+                        ?>
                         <a href="#">Login</a>
                         <div class="tz-login-form">
                         <?php
-echo '<form>';
-echo '<p class="form-content">';
-echo '<label for="username">Username / Email</label>';
-echo '<input type="text" name="username" id="username" value="">';
-echo '</p>';
-echo '<p class="form-content">';
-echo '<label for="password">Password</label>';
-echo '<input type="password" name="username" id="password" value="">';
-echo '</p>';
-echo '<p class="form-footer">';
-echo '<a href="#">Lost Password?</a>';
-echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
-echo '</p>';
-echo '<p class="form-text">';
-echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
-echo '</p>';
-echo '</form>';
-?>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="header-content">
-                <h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>
-                <div class="tz-search pull-right">
-                    <form>
-                        <label class="select-arrow">
-                            <select name="category">
-                                <option value="">All Category</option>
-                                <option value="#">Baby Seats</option>
-                                <option value="#">Halfwheelers</option>
-                                <option value="#">Locks/Security</option>
-                                <option value="#">WheelSystems</option>
-                                <option value="#">Rim Tape</option>
-                            </select>
-                        </label>
-                        <input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">
-                        <button type="submit"></button>
-                    </form>                  
-                </div>
-            </div>
-        </div>
-        <nav class="tz-menu-primary">
-            <div class="container">
-                <ul class="tz-main-menu pull-left nav-collapse">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="shop.html">category
-                        <span class="red-light">On sale!</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="shop.html">Bikes</a>
-                    </li>
-                    <li>
-                        <a href="shop.html">Gear</a>
-                    </li>
-                    <li>
-                        <a href="shop.html">Shop</a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="shop-cart.html">Shop Cart</a>
-                            </li>
-                            <li>
-                                <a href="shop-checkout.html">Shop Checkout</a>
-                            </li>
-                            <li>
-                                <a href="shop-register.html">Shop Register</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="blog.html">
-                            Blog
-                            <span class="cyan-dark">Best off!</span>
-                        </a>
-                        </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <ul class="tz-ecommerce-meta pull-right">
-                    <li class="tz-menu-wishlist">
-                        <a href="#"><strong>0</strong></a>
-                    </li>
-                    <li class="tz-mini-cart">
-                        <a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>
-                        <ul class="cart-inner">
-                            <li class="mini-cart-content">
-                                <div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>
-                                <div class="mini-cart-ds">
-                                    <h6><a href="single-product.html">Liv Race Day Short</a></h6>
-                                    <span class="mini-cart-meta">
-                                        <a href="single-product.html">₱600</a>
-                                        <span class="mini-meta">
-                                           <span class="mini-color">Color: <i class="orange"></i></span>
-                                           <span class="mini-qty">Qty: 1</span>
-                                        </span>
-                                    </span>
-                                </div>
-                                <span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>
-                            </li>
-                            <li class="mini-cart-content">
-                                <div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>
-                                <div class="mini-cart-ds">
-                                    <h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>
-                                    <span class="mini-cart-meta">
-                                        <a href="single-product.html">₱2500</a>
-                                        <span class="mini-meta">
-                                           <span class="mini-color">Color: <i class="orange"></i></span>
-                                           <span class="mini-qty">Qty: 1</span>
-                                        </span>
-                                    </span>
+                        echo '<form>';
+                        echo '<p class="form-content">';
+                        echo '<label for="username">Username / Email</label>';
+                        echo '<input type="text" name="username" id="username" value="">';
+                        echo '</p>';
+                        echo '<p class="form-content">';
+                        echo '<label for="password">Password</label>';
+                        echo '<input type="password" name="username" id="password" value="">';
+                        echo '</p>';
+                        echo '<p class="form-footer">';
+                        echo '<a href="#">Lost Password?</a>';
+                        echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
+                        echo '</p>';
+                        echo '<p class="form-text">';
+                        echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
+                        echo '</p>';
+                        echo '</form>';
+                        echo '</div>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '<div class="header-content">';
+                        echo '<h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>';
+                        echo '<div class="tz-search pull-right">';
+                        echo '<form>';
+                        echo '<label class="select-arrow">';
+                        echo '<select name="category">';
+                        echo '<option value="">All Category</option>';
+                        echo '<option value="#">Baby Seats</option>';
+                        echo '<option value="#">Halfwheelers</option>';
+                        echo '<option value="#">Locks/Security</option>';
+                        echo '<option value="#">WheelSystems</option>';
+                        echo '<option value="#">Rim Tape</option>';
+                        echo '</select>';
+                        echo '</label>';
+                        echo '<input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">';
+                        echo '<button type="submit"></button>';
+                        echo '</form>';
+                        echo '';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '<nav class="tz-menu-primary">';
+                        echo '<div class="container">';
+                        echo '<ul class="tz-main-menu pull-left nav-collapse">';
+                        echo '<li>';
+                        echo '<a href="index.html">Home</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">category';
+                        echo '<span class="red-light">On sale!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Bikes</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Gear</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Shop</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">Shop Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Shop Checkout</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">Shop Register</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="blog.html">';
+                        echo 'Blog';
+                        echo '<span class="cyan-dark">Best off!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="contact.html">Contact</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '<ul class="tz-ecommerce-meta pull-right">';
+                        echo '<li class="tz-menu-wishlist">';
+                        echo '<a href="#"><strong>0</strong></a>';
+                        echo '</li>';
+                        echo '<li class="tz-mini-cart">';
+                        echo '<a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>';
+                        echo '<ul class="cart-inner">';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱600</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        echo '</div>';
+                        echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
+                        echo '</li>';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱2500</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        ?>
                                 </div>
                                 <span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>
                             </li>
@@ -202,114 +199,116 @@ echo '</form>';
                 <div class="col-md-3">
                     <div class="tz-shop-sidebar">
                         <aside class="widget widget_product_categories">
-                            <h3 class="widget-title">Bikes product</h3>
-                            <ul class="product-categories">
-                                <li>
-                                    <a href="shop.html">On-Road</a>
-                                </li>
-                                <li class="cat-parent">
-                                    <a href="shop.html">X-Road</a>
-                                    <ul class="children">
-                                        <li>
-                                            <a href="shop.html">Aero Race <span>(3)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">City <span>(3)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Comfort<span>(1)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Cruiser<span>(1)</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="shop.html">Endurance <span>(4)</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="shop.html">Off-Road</a>
-                                </li>
-                                <li>
-                                    <a href="shop.html">BMX</a>
-                                </li>
-                            </ul>
-                        </aside>
-                        <aside class="product-catlog widget">
-                            <h3 class="widget-title">Catalog</h3>
-                            <div class="widget_color_filter">
-                                <h4 class="widget-title-children">
-                                    Color filter
-                                </h4>
-                                <ul>
-                                    <li>
-                                        <a href="shop.html" class="light-blue"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="orange"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="blueviolet"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="orange-dark"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="steelblue"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="red-light"></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html" class="cyan-dark"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="widget-size-filter">
-                                <h4 class="widget-title-children">
-                                    Size Filter
-                                </h4>
-                                <ul>
-                                    <li>
-                                        <a href="shop.html">S - Small  <span>(24)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">M - Medium  <span>(18)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">L - Large <span>(9)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html"> XL - Extra Large <span>(39)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">xtra Extra Large  <span>(24)</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="widget-size-filter">
-                                <h4 class="widget-title-children">
-                                    Brand Filter
-                                </h4>
-                                <ul>
-                                    <li>
-                                        <a href="shop.html">S - Small  <span>(24)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">M - Medium  <span>(18)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">L - Large <span>(9)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html"> XL - Extra Large <span>(39)</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="shop.html">xtra Extra Large  <span>(24)</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
+                        <?php
+                        echo '<h3 class="widget-title">Bikes product</h3>';
+                        echo '<ul class="product-categories">';
+                        echo '<li>';
+                        echo '<a href="shop.html">On-Road</a>';
+                        echo '</li>';
+                        echo '<li class="cat-parent">';
+                        echo '<a href="shop.html">X-Road</a>';
+                        echo '<ul class="children">';
+                        echo '<li>';
+                        echo '<a href="shop.html">Aero Race <span>(3)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">City <span>(3)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Comfort<span>(1)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Cruiser<span>(1)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Endurance <span>(4)</span></a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Off-Road</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">BMX</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</aside>';
+                        echo '<aside class="product-catlog widget">';
+                        echo '<h3 class="widget-title">Catalog</h3>';
+                        echo '<div class="widget_color_filter">';
+                        echo '<h4 class="widget-title-children">';
+                        echo 'Color filter';
+                        echo '</h4>';
+                        echo '<ul>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="light-blue"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="orange"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="blueviolet"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="orange-dark"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="steelblue"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="red-light"></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html" class="cyan-dark"></a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '<div class="widget-size-filter">';
+                        echo '<h4 class="widget-title-children">';
+                        echo 'Size Filter';
+                        echo '</h4>';
+                        echo '<ul>';
+                        echo '<li>';
+                        echo '<a href="shop.html">S - Small  <span>(24)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">M - Medium  <span>(18)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">L - Large <span>(9)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html"> XL - Extra Large <span>(39)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">xtra Extra Large  <span>(24)</span></a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '<div class="widget-size-filter">';
+                        echo '<h4 class="widget-title-children">';
+                        echo 'Brand Filter';
+                        echo '</h4>';
+                        echo '<ul>';
+                        echo '<li>';
+                        echo '<a href="shop.html">S - Small  <span>(24)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">M - Medium  <span>(18)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">L - Large <span>(9)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html"> XL - Extra Large <span>(39)</span></a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">xtra Extra Large  <span>(24)</span></a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '</aside>';
+                        ?>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -367,32 +366,34 @@ echo '</form>';
                                             $item = simplexml_load_file('nepomuceno_IT2C_BikeSport.xml');
                                             echo $item->product[0]->price;
                                             ?>
-                                            </span>
-                                                <span class="p-vote">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-half-o"></i>
-                                                </span>
-                                            </span>
-                                            <span class="p-color">
-                                                 <i class="fa fa-circle light-blue"></i>
-                                                <i class="fa fa-circle orange"></i>
-                                                <i class="fa fa-circle blueviolet"></i>
-                                                <i class="fa fa-circle orange-dark"></i>
-                                                <i class="fa fa-circle steelblue"></i>
-                                            </span>
-                                                <p>
-                                                    It's more stable, capable, and forgiving than an XC race bike, and also more playful, efficient, and lighter than the more traditional trail bike.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                            <?php
+                                            echo '</span>';
+                                            echo '<span class="p-vote">';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star-half-o"></i>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            echo '<span class="p-color">';
+                                            echo '<i class="fa fa-circle light-blue"></i>';
+                                            echo '<i class="fa fa-circle orange"></i>';
+                                            echo '<i class="fa fa-circle blueviolet"></i>';
+                                            echo '<i class="fa fa-circle orange-dark"></i>';
+                                            echo '<i class="fa fa-circle steelblue"></i>';
+                                            echo '</span>';
+                                            echo '<p>';
+                                            echo 'Its more stable, capable, and forgiving than an XC race bike, and also more playful, efficient, and lighter than the more traditional trail bike.';
+                                            echo '</p>';
+                                            echo '<span class="p-mask">';
+                                            echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                            echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                            echo '<span class="quick-view">';
+                                            echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            ?>      
                                         </div>
                                     </div>
                                 </div>
@@ -413,32 +414,34 @@ echo '</form>';
                                             $item = simplexml_load_file('nepomuceno_IT2C_BikeSport.xml');
                                             echo $item->product[1]->price;
                                             ?>
-                                            </span>
-                                                <span class="p-vote">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star-half-o"></i>
-                                                </span>
-                                            </span>
-                                            <span class="p-color">
-                                                <i class="fa fa-circle steelblue"></i>
-                                                <i class="fa fa-circle light-blue"></i>
-                                                <i class="fa fa-circle orange"></i>
-                                                <i class="fa fa-circle blueviolet"></i>
-                                                <i class="fa fa-circle orange-dark"></i>
-                                            </span>
-                                                <p>
-                                                    The geometry and 36 fork hanging on the front give off a gravity vibe, but this is a peppy and versatile trail bike that'll slay long rides and tight trails, and, yes, shred and send.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                            <?php
+                                            echo '</span>';
+                                            echo '<span class="p-vote">';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star"></i>';
+                                            echo '<i class="fa fa-star-half-o"></i>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            echo '<span class="p-color">';
+                                            echo '<i class="fa fa-circle steelblue"></i>';
+                                            echo '<i class="fa fa-circle light-blue"></i>';
+                                            echo '<i class="fa fa-circle orange"></i>';
+                                            echo '<i class="fa fa-circle blueviolet"></i>';
+                                            echo '<i class="fa fa-circle orange-dark"></i>';
+                                            echo '</span>';
+                                            echo '<p>';
+                                            echo 'The geometry and 36 fork hanging on the front give off a gravity vibe, but this is a peppy and versatile trail bike that will slay long rides and tight trails, and, yes, shred and send.';
+                                            echo '</p>';
+                                            echo '<span class="p-mask">';
+                                            echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                            echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                            echo '<span class="quick-view">';
+                                            echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -459,23 +462,25 @@ echo '</form>';
                                             $item = simplexml_load_file('nepomuceno_IT2C_BikeSport.xml');
                                             echo $item->product[2]->price;
                                             ?>
-                                            <span class="p-color">
-                                                <i class="fa fa-circle steelblue"></i>
-                                                <i class="fa fa-circle light-blue"></i>
-                                                <i class="fa fa-circle orange"></i>
-                                                <i class="fa fa-circle blueviolet"></i>
-                                                <i class="fa fa-circle orange-dark"></i>
-                                            </span>
-                                                <p>
-                                                    It consistently gets high ratings in its mountain and hybrid bike categories. Giant is also known for giving a comfortable ride.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                            <?php
+                                            echo '<span class="p-color">';
+                                            echo '<i class="fa fa-circle steelblue"></i>';
+                                            echo '<i class="fa fa-circle light-blue"></i>';
+                                            echo '<i class="fa fa-circle orange"></i>';
+                                            echo '<i class="fa fa-circle blueviolet"></i>';
+                                            echo '<i class="fa fa-circle orange-dark"></i>';
+                                            echo '</span>';
+                                            echo '<p>';
+                                            echo 'It consistently gets high ratings in its mountain and hybrid bike categories. Giant is also known for giving a comfortable ride.';
+                                            echo '</p>';
+                                            echo '<span class="p-mask">';
+                                            echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                            echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                            echo '<span class="quick-view">';
+                                            echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -502,17 +507,19 @@ echo '</form>';
                                                 <i class="fa fa-circle light-blue"></i>
                                                 <i class="fa fa-circle blueviolet"></i>
                                                 <i class="fa fa-circle orange-dark"></i>
-                                            </span>
-                                                <p>
-                                                    GT employs quality carbon and high-grade aluminum frames, which are exceptionally lightweight. The frames make it easy to maneuver the bikes outdoors and ride fast. As a result, GT road bikes and mountain bikes beat most of their counterparts in speed.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                                <?php
+                                                echo '</span>';
+                                                echo '<p>';
+                                                echo 'GT employs quality carbon and high-grade aluminum frames, which are exceptionally lightweight. The frames make it easy to maneuver the bikes outdoors and ride fast. As a result, GT road bikes and mountain bikes beat most of their counterparts in speed.';
+                                                echo '</p>';
+                                                echo '<span class="p-mask">';
+                                                echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                                echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                                echo '<span class="quick-view">';
+                                                echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                                echo '</span>';
+                                                echo '</span>';
+                                                ?>
                                         </div>
                                     </div>
                                 </div>
@@ -533,23 +540,25 @@ echo '</form>';
                                             $item = simplexml_load_file('nepomuceno_IT2C_BikeSport.xml');
                                             echo $item->product[4]->price;
                                             ?>
-                                            <span class="p-color">
-                                                <i class="fa fa-circle orange"></i>
-                                                <i class="fa fa-circle steelblue"></i>
-                                                <i class="fa fa-circle light-blue"></i>
-                                                <i class="fa fa-circle blueviolet"></i>
-                                                <i class="fa fa-circle orange-dark"></i>
-                                            </span>
-                                                <p>
-                                                    Employ innovative Virtual Pivot Point and superlight suspension, making them stiffer and more comfortable to ride. These bikes also come in a wide range of unisex choices and are generally quality in build with lifetime warranties.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                            <?php
+                                            echo '<span class="p-color">';
+                                            echo '<i class="fa fa-circle orange"></i>';
+                                            echo '<i class="fa fa-circle steelblue"></i>';
+                                            echo '<i class="fa fa-circle light-blue"></i>';
+                                            echo '<i class="fa fa-circle blueviolet"></i>';
+                                            echo '<i class="fa fa-circle orange-dark"></i>';
+                                            echo '</span>';
+                                            echo '<p>';
+                                            echo 'Employ innovative Virtual Pivot Point and superlight suspension, making them stiffer and more comfortable to ride. These bikes also come in a wide range of unisex choices and are generally quality in build with lifetime warranties.';
+                                            echo '</p>';
+                                            echo '<span class="p-mask">';
+                                            echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                            echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                            echo '<span class="quick-view">';
+                                            echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -570,23 +579,25 @@ echo '</form>';
                                             $item = simplexml_load_file('nepomuceno_IT2C_BikeSport.xml');
                                             echo $item->product[5]->price;
                                             ?>
-                                            <span class="p-color">
-                                                <i class="fa fa-circle orange"></i>
-                                                <i class="fa fa-circle steelblue"></i>
-                                                <i class="fa fa-circle light-blue"></i>
-                                                <i class="fa fa-circle blueviolet"></i>
-                                                <i class="fa fa-circle orange-dark"></i>
-                                            </span>
-                                                <p>
-                                                    Good quality because they employ cutting-edge suspension and body geometry technologies to guarantee riding comfort. Moreover, these bikes feature durable precision-made components that promise longevity and better performance.
-                                                </p>
-                                            <span class="p-mask">
-                                                <a href="shop-cart.html" class="add-to-cart">Add to cart</a>
-                                                <a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>
-                                               <span class="quick-view">
-                                                    <a href="#"><i class="fa fa-eye"></i> Quick view</a>
-                                                </span>
-                                            </span>
+                                            <?php
+                                            echo '<span class="p-color">';
+                                            echo '<i class="fa fa-circle orange"></i>';
+                                            echo '<i class="fa fa-circle steelblue"></i>';
+                                            echo '<i class="fa fa-circle light-blue"></i>';
+                                            echo '<i class="fa fa-circle blueviolet"></i>';
+                                            echo '<i class="fa fa-circle orange-dark"></i>';
+                                            echo '</span>';
+                                            echo '<p>';
+                                            echo 'Good quality because they employ cutting-edge suspension and body geometry technologies to guarantee riding comfort. Moreover, these bikes feature durable precision-made components that promise longevity and better performance.';
+                                            echo '</p>';
+                                            echo '<span class="p-mask">';
+                                            echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+                                            echo '<a href="#" class="add-to-wishlist"><i class="fa fa-heart"></i> Add to wishlist</a>';
+                                            echo '<span class="quick-view">';
+                                            echo '<a href="#"><i class="fa fa-eye"></i> Quick view</a>';
+                                            echo '</span>';
+                                            echo '</span>';
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -627,23 +638,25 @@ echo '</form>';
             <div class="container">
                 <div class="footer-left">
                     <div class="contact-info widget">
-                        <h3 class="widget-title">Contact info</h3>
-                        <ul>
-                            <li>
-                                <span>Address :</span>
-                                <address>
-                                    San Miguel, #73 D.Reyes St. <br> Boac, Marinduque
-                                </address>
-                            </li>
-                            <li>
-                                <span>Phone :</span>
-                                09270454469
-                            </li>
-                            <li>
-                                <span>Email :</span>
-                                bikesport@gmail.com
-                            </li>
-                        </ul>
+                    <?php
+                    echo '<h3 class="widget-title">Contact info</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<span>Address :</span>';
+                    echo '<address>';
+                    echo 'San Miguel, #73 D.Reyes St. <br> Boac, Marinduque';
+                    echo '</address>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<span>Phone :</span>';
+                    echo '09270454469';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<span>Email :</span>';
+                    echo 'bikesport@gmail.com';
+                    echo '</li>';
+                    echo '</ul>';
+                    ?>
                     </div>
                     <div class="widget">
                         <form class="tz-subcribe">
@@ -652,118 +665,120 @@ echo '</form>';
                         </form>
                     </div>
                     <div class="widget">
-                        <ul class="tz-social">
-                            <li>
-                                <a class="fa fa-facebook" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-twitter" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-google-plus" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-tumblr" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-flickr" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="fa fa-pinterest" href="#"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-right">
-                    <div class="tz-widget-clients widget">
-                        <h3 class="widget-title">What clients say?</h3>
-                        <div class="tz-widget-say">
-                            <img src="images/product/anonymous-avatar-icon.jpg" alt="Vincent Ray Orbien">
-                            <div class="entry-say">
-                                <p>This Bikes are great!</p>
-                                <span>Vincent Ray Orbien</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="widget widget_nav_menu">
-                                <h3 class="widget-title">HOW TO BUY</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Contact Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Returns</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Site Map</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Brands</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Gift Vouchers</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="widget widget_nav_menu">
-                                <h3 class="widget-title">MY ACCOUNT</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">My Account</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Order History</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Wish List</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Newsletter</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Specials</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="widget widget_nav_menu">
-                                <h3 class="widget-title">Infomation</h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Returns</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Term & Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tz-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <p>Copyright &copy; 2022 BikeSport by Corey Nepomuceno. All rights reserved.</p>
-                    </div>
-    </footer>
-    </div>
+                    <?php
+                    echo '<ul class="tz-social">';
+                    echo '<li>';
+                    echo '<a class="fa fa-facebook" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-twitter" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-google-plus" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-tumblr" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-flickr" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-pinterest" href="#"></a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="footer-right">';
+                    echo '<div class="tz-widget-clients widget">';
+                    echo '<h3 class="widget-title">What clients say?</h3>';
+                    echo '<div class="tz-widget-say">';
+                    echo '<img src="images/product/anonymous-avatar-icon.jpg" alt="Vincent Ray Orbien">';
+                    echo '<div class="entry-say">';
+                    echo '<p>This Bikes are great!</p>';
+                    echo '<span>Vincent Ray Orbien</span>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="row">';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">HOW TO BUY</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">Contact Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Returns</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Site Map</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Brands</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Gift Vouchers</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">MY ACCOUNT</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">My Account</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Order History</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Wish List</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Newsletter</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Specials</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">Infomation</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">About Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Returns</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Contact Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Term & Conditions</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Privacy Policy</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';echo '<div class="tz-copyright">';
+                    echo '<div class="container">';
+                    echo '<div class="row">';
+                    echo '<div class="col-md-6 col-sm-6">';
+                    echo '<p>Copyright &copy; 2022 BikeSport by Corey Nepomuceno. All rights reserved.</p>';
+                    echo '</div>';
+                    echo '</footer>';
+                    echo '</div>';
+                    ?>
+        
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/bootstrap.min.js"></script>

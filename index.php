@@ -22,33 +22,33 @@
             <div class="container">
                 <div class="header-top">
                     <ul class="pull-left">
-                    <?php
-echo '<li>';
-echo '<a href="#">';
-echo 'PHP';
-echo '<span class="fa fa-angle-down tz-down"></span>';
-echo '</a>';
-echo '<ul class="sub-menu">';
-echo '<li>';
-echo '<a href="#">EURO</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">USD</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">PHP</a>';
-echo '</li>';
-echo '</ul>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">';
-echo 'English';
-echo '<span class="fa fa-angle-down tz-down"></span>';
-echo '</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="#">Call us:   09270454469</a>';
-echo '</li>';
+<?php
+                    echo '<li>';
+                    echo '<a href="#">';
+                    echo 'PHP';
+                    echo '<span class="fa fa-angle-down tz-down"></span>';
+                    echo '</a>';
+                    echo '<ul class="sub-menu">';
+                    echo '<li>';
+                    echo '<a href="#">EURO</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">USD</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">PHP</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">';
+                    echo 'English';
+                    echo '<span class="fa fa-angle-down tz-down"></span>';
+                    echo '</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Call us:   09270454469</a>';
+                    echo '</li>';
 ?>
                     </ul>
                     <ul class="pull-right">
@@ -68,23 +68,23 @@ echo '</li>';
                             <a href="#">Login</a>
                             <div class="tz-login-form">
                             <?php
-echo '<form>';
-echo '<p class="form-content">';
-echo '<label for="username">Username / Email</label>';
-echo '<input type="text" name="username" id="username" value="">';
-echo '</p>';
-echo '<p class="form-content">';
-echo '<label for="password">Password</label>';
-echo '<input type="password" name="username" id="password" value="">';
-echo '</p>';
-echo '<p class="form-footer">';
-echo '<a href="#">Lost Password?</a>';
-echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
-echo '</p>';
-echo '<p class="form-text">';
-echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
-echo '</p>';
-echo '</form>';
+                        echo '<form>';
+                        echo '<p class="form-content">';
+                        echo '<label for="username">Username / Email</label>';
+                        echo '<input type="text" name="username" id="username" value="">';
+                        echo '</p>';
+                        echo '<p class="form-content">';
+                        echo '<label for="password">Password</label>';
+                        echo '<input type="password" name="username" id="password" value="">';
+                        echo '</p>';
+                        echo '<p class="form-footer">';
+                        echo '<a href="#">Lost Password?</a>';
+                        echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
+                        echo '</p>';
+                        echo '<p class="form-text">';
+                        echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
+                        echo '</p>';
+                        echo '</form>';
 ?>
                             </div>
                         </li>
@@ -94,20 +94,20 @@ echo '</form>';
                     <h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>
                     <div class="tz-search pull-right">
                     <?php
-echo '<form>';
-echo '<label class="select-arrow">';
-echo '<select name="category">';
-echo '<option value="">All Category</option>';
-echo '<option value="#">Baby Seats</option>';
-echo '<option value="#">Halfwheelers</option>';
-echo '<option value="#">Locks/Security</option>';
-echo '<option value="#">WheelSystems</option>';
-echo '<option value="#">Rim Tape</option>';
-echo '</select>';
-echo '</label>';
-echo '<input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">';
-echo '<button type="submit"></button>';
-echo '</form>';
+                        echo '<form>';
+                        echo '<label class="select-arrow">';
+                        echo '<select name="category">';
+                        echo '<option value="">All Category</option>';
+                        echo '<option value="#">Baby Seats</option>';
+                        echo '<option value="#">Halfwheelers</option>';
+                        echo '<option value="#">Locks/Security</option>';
+                        echo '<option value="#">WheelSystems</option>';
+                        echo '<option value="#">Rim Tape</option>';
+                        echo '</select>';
+                        echo '</label>';
+                        echo '<input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">';
+                        echo '<button type="submit"></button>';
+                        echo '</form>';
 ?>
                     </div>
                 </div>
@@ -116,84 +116,84 @@ echo '</form>';
                 <div class="container">
                     <ul class="tz-main-menu pull-left nav-collapse">
                     <?php
-echo '<li>';
-echo '<a href="index.html">Home</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop.html">';
-echo 'category';
-echo '<span class="red-light">On sale!</span>';
-echo '</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop.html">Bikes</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop.html">Gear</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop.html">Shop</a>';
-echo '<ul class="sub-menu">';
-echo '<li>';
-echo '<a href="shop-cart.html">Shop Cart</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop-checkout.html">Shop Checkout</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="shop-register.html">Shop Register</a>';
-echo '</li>';
-echo '</ul>';
-echo '</li>';
-echo '<li>';
-echo '<a href="blog.html">';
-echo 'Blog';
-echo '<span class="cyan-dark">Best off!</span>';
-echo '</a>';
-echo '</li>';
-echo '<li>';
-echo '<a href="contact.html">Contact</a>';
-echo '</li>';
+                        echo '<li>';
+                        echo '<a href="index.html">Home</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">';
+                        echo 'category';
+                        echo '<span class="red-light">On sale!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Bikes</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Gear</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Shop</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">Shop Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Shop Checkout</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">Shop Register</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="blog.html">';
+                        echo 'Blog';
+                        echo '<span class="cyan-dark">Best off!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="contact.html">Contact</a>';
+                        echo '</li>';
 ?>
                     </ul>
                     <ul class="tz-ecommerce-meta pull-right">
                     <?php
-echo '<li class="tz-menu-wishlist">';
-echo '<a href="#"><strong>0</strong></a>';
-echo '</li>';
-echo '<li class="tz-mini-cart">';
-echo '<a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>';
-echo '<ul class="cart-inner">';
-echo '<li class="mini-cart-content">';
-echo '<div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>';
-echo '<div class="mini-cart-ds">';
-echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
-echo '<span class="mini-cart-meta">';
-echo '<a href="single-product.html">₱600</a>';
-echo '<span class="mini-meta">';
-echo '<span class="mini-color">Color: <i class="orange"></i></span>';
-echo '<span class="mini-qty">Qty: 1</span>';
-echo '</span>';
-echo '</span>';
-echo '</div>';
-echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
-echo '</li>';
-echo '<li class="mini-cart-content">';
-echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
-echo '<div class="mini-cart-ds">';
-echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
-echo '<span class="mini-cart-meta">';
-echo '<a href="single-product.html">₱2500</a>';
-echo '<span class="mini-meta">';
-echo '<span class="mini-color">Color: <i class="orange"></i></span>';
-echo '<span class="mini-qty">Qty: 1</span>';
-echo '</span>';
-echo '</span>';
-echo '</div>';
-echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
-echo '</li>';
-echo '</ul>';
-echo '</li>';
+                        echo '<li class="tz-menu-wishlist">';
+                        echo '<a href="#"><strong>0</strong></a>';
+                        echo '</li>';
+                        echo '<li class="tz-mini-cart">';
+                        echo '<a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>';
+                        echo '<ul class="cart-inner">';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱600</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        echo '</div>';
+                        echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
+                        echo '</li>';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱2500</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        echo '</div>';
+                        echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
 ?>
                     </ul>
                     <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
