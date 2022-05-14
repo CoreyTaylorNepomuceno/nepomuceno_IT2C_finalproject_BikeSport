@@ -13,219 +13,185 @@
     <link href='css/owl.carousel.css' rel='stylesheet' type='text/css'>
     <link href='css/owl.theme.css' rel='stylesheet' type='text/css'>
     <link href="css/custom.css" rel="stylesheet" type='text/css'>
-
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 </head>
 <body>
-    <!--Start class site-->
     <div class="tz-site">
-
-        <!--Start id tz header-->
         <header id="tz-header" class="bk-white">
             <div class="container">
-
-                <!--Start class header top-->
                 <div class="header-top">
                     <ul class="pull-left">
-                        <li>
-                            <a href="#">
-                                USD
-                                <span class="fa fa-angle-down tz-down"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#">EURO</a>
-                                </li>
-                                <li>
-                                    <a href="#">USD</a>
-                                </li>
-                                <li>
-                                    <a href="#">EGP</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">
-                                English
-                                <span class="fa fa-angle-down tz-down"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">Call us:   (012) 3456 7890</a>
-                        </li>
-                    </ul>
-                    <ul class="pull-right">
-                        <li>
-                            <a href="shop-register.html">My Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Wishlist</a>
-                        </li>
-                        <li>
-                            <a href="shop-cart.html">My Cart</a>
-                        </li>
-                        <li>
-                            <a href="shop-checkout.html">Checkout</a>
-                        </li>
-                        <li class="tz-header-login">
-                            <a href="#">Login</a>
-                            <div class="tz-login-form">
-                                <form>
-                                    <p class="form-content">
-                                        <label for="username">Username / Email</label>
-                                        <input type="text" name="username" id="username" value="">
-                                    </p>
-                                    <p class="form-content">
-                                        <label for="password">Password</label>
-                                        <input type="password" name="username" id="password" value="">
-                                    </p>
-                                    <p class="form-footer">
-                                        <a href="#">Lost Password?</a>
-                                        <button type="submit" class="pull-right button_class">LOGIN</button>
-                                    </p>
-                                    <p class="form-text">
-                                        Don't have an account? <a href="shop-register.html">Register Here</a>
-                                    </p>
-                                </form>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!--End class header top-->
-
-                <!--Start header content-->
-                <div class="header-content">
-                    <h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>
-                    <div class="tz-search pull-right">
-
-                        <!--Start form search-->
-                        <form>
-                            <label class="select-arrow">
-                                <select name="category">
-                                    <option value="">All Category</option>
-                                    <option value="#">Baby Seats</option>
-                                    <option value="#">Halfwheelers</option>
-                                    <option value="#">Locks/Security</option>
-                                    <option value="#">WheelSystems</option>
-                                    <option value="#">Rim Tape</option>
-                                </select>
-                            </label>
-                            <input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">
-                            <button type="submit"></button>
-                        </form>
-                        <!--End Form search-->
-                  </div>
-                </div>
-                <!--End class header content-->
-            </div>
-
-            <!--Start main menu -->
-            <nav class="tz-menu-primary">
-                <div class="container">
-
-                    <!--Main Menu-->
-                    <ul class="tz-main-menu pull-left nav-collapse">
-                        <li>
-                            <a href="index.html">Home</a>                          
-                        </li>
-                        <li>
-                            <a href="shop.html">
-                                category
-                                <span class="red-light">On sale!</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="shop.html">Bikes</a>
-                        </li>
-                        <li>
-                            <a href="shop.html">Gear</a>
-                        </li>
-                        <li>
-                            <a href="shop.html">Shop</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="shop-cart.html">Shop Cart</a>
-                                </li>
-                                <li>
-                                    <a href="shop-checkout.html">Shop Checkout</a>
-                                </li>
-                                <li>
-                                    <a href="shop-register.html">Shop Register</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="blog.html">
-                                Blog
-                                <span class="cyan-dark">Best off!</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                    <!--End Main menu-->
-
-                    <!--Shop meta-->
-                    <ul class="tz-ecommerce-meta pull-right">
-                        <li class="tz-menu-wishlist">
-                            <a href="#"><strong>0</strong></a>
-                        </li>
-                        <li class="tz-mini-cart">
-                            <a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>
-                            <!--Mini cart-->
-                            <ul class="cart-inner">
-                                <li class="mini-cart-content">
-                                    <div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>
-                                    <div class="mini-cart-ds">
-                                        <h6><a href="single-product.html">Liv Race Day Short</a></h6>
-                                        <span class="mini-cart-meta">
-                                            <a href="single-product.html">₱600</a>
-                                            <span class="mini-meta">
-                                               <span class="mini-color">Color: <i class="orange"></i></span>
-                                               <span class="mini-qty">Qty: 1</span>
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>
-                                </li>
-                                <li class="mini-cart-content">
-                                    <div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>
-                                    <div class="mini-cart-ds">
-                                        <h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>
-                                        <span class="mini-cart-meta">
-                                            <a href="single-product.html">₱2500</a>
-                                            <span class="mini-meta">
-                                               <span class="mini-color">Color: <i class="orange"></i></span>
-                                               <span class="mini-qty">Qty: 1</span>
-                                            </span>
-                                        </span>
+                    <?php
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'PHP';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="#">EURO</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">USD</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">PHP</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'English';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Call us:   09270454469</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">My Account</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Wishlist</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">My Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Checkout</a>';
+                        echo '</li>';
+                        echo '<li class="tz-header-login">';
+                        ?>
+                        <a href="#">Login</a>
+                        <div class="tz-login-form">
+                        <?php
+                        echo '<form>';
+                        echo '<p class="form-content">';
+                        echo '<label for="username">Username / Email</label>';
+                        echo '<input type="text" name="username" id="username" value="">';
+                        echo '</p>';
+                        echo '<p class="form-content">';
+                        echo '<label for="password">Password</label>';
+                        echo '<input type="password" name="username" id="password" value="">';
+                        echo '</p>';
+                        echo '<p class="form-footer">';
+                        echo '<a href="#">Lost Password?</a>';
+                        echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
+                        echo '</p>';
+                        echo '<p class="form-text">';
+                        echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
+                        echo '</p>';
+                        echo '</form>';
+                        echo '</div>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '<div class="header-content">';
+                        echo '<h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>';
+                        echo '<div class="tz-search pull-right">';
+                        echo '<form>';
+                        echo '<label class="select-arrow">';
+                        echo '<select name="category">';
+                        echo '<option value="">All Category</option>';
+                        echo '<option value="#">Baby Seats</option>';
+                        echo '<option value="#">Halfwheelers</option>';
+                        echo '<option value="#">Locks/Security</option>';
+                        echo '<option value="#">WheelSystems</option>';
+                        echo '<option value="#">Rim Tape</option>';
+                        echo '</select>';
+                        echo '</label>';
+                        echo '<input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">';
+                        echo '<button type="submit"></button>';
+                        echo '</form>';
+                        echo '';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '<nav class="tz-menu-primary">';
+                        echo '<div class="container">';
+                        echo '<ul class="tz-main-menu pull-left nav-collapse">';
+                        echo '<li>';
+                        echo '<a href="index.html">Home</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">category';
+                        echo '<span class="red-light">On sale!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Bikes</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Gear</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop.html">Shop</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">Shop Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Shop Checkout</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">Shop Register</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="blog.html">';
+                        echo 'Blog';
+                        echo '<span class="cyan-dark">Best off!</span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="contact.html">Contact</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '<ul class="tz-ecommerce-meta pull-right">';
+                        echo '<li class="tz-menu-wishlist">';
+                        echo '<a href="#"><strong>0</strong></a>';
+                        echo '</li>';
+                        echo '<li class="tz-mini-cart">';
+                        echo '<a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>';
+                        echo '<ul class="cart-inner">';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱600</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        echo '</div>';
+                        echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
+                        echo '</li>';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱2500</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        ?>
                                     </div>
                                     <span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>
                                 </li>
                             </ul>
-                            <!--End mini cart-->
-
                         </li>
                     </ul>
-                    <!--End Shop meta-->
-
-                    <!--navigation mobi-->
                     <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <!--End navigation mobi-->
                 </div>
             </nav>
-            <!--End stat main menu-->
-
         </header>
-        <!--End id tz header-->
-
-        <!--Start Blog-->
         <div class="blog">
             <div class="container">
                 <ul class="tz-breadcrumbs">
@@ -239,55 +205,56 @@
                 <div class="blog-container">
                     <div class="row">
                     <div class="col-md-4">
-
-                        <!--Blog Sidebar-->
                         <div class="blog-sidebar">
                             <aside class="contact-info widget no-border">
-                                <h4 class="widget-title">Contact info</h4>
-                                <ul>
-                                    <li>
-                                        <span>Address :</span>
-                                        <address>
-                                            San Miguel, #73 D.Reyes St. <br> Boac, Marinduque
-                                        </address>
-                                    </li>
-                                    <li>
-                                        <span>Phone :</span>
-                                        09270454469
-                                    </li>
-                                    <li>
-                                        <span>Email :</span>
-                                        bikesport@gmail.com
-                                    </li>
-                                </ul>
+                            <?php
+                            echo '<h3 class="widget-title">Contact info</h3>';
+                            echo '<ul>';
+                            echo '<li>';
+                            echo '<span>Address :</span>';
+                            echo '<address>';
+                            echo 'San Miguel, #73 D.Reyes St. <br> Boac, Marinduque';
+                            echo '</address>';
+                            echo '</li>';
+                            echo '<li>';
+                            echo '<span>Phone :</span>';
+                            echo '09270454469';
+                            echo '</li>';
+                            echo '<li>';
+                            echo '<span>Email :</span>';
+                            echo 'bikesport@gmail.com';
+                            echo '</li>';
+                            echo '</ul>';
+                            ?>
                             </aside>
                         </div>
-                        <!--End Blog Sidebar-->
                     </div>
                     <div class="col-md-8 tz-blog-content">
-                        <h1 class="large-ttle">Contact Us</h1>
-                        <div id="contact-form" class="contact-respond">
-                            <h3 class="tz-title">Leave us a message</h3>
-                            <form id="commentform" class="contact-form-7">
-                                <p class="comment-for-author">
-                                    <input type="text" class="author" placeholder="Name">
-                                    <i class="fa fa-user"></i>
-                                </p>
-                                <p class="comment-for-email">
-                                    <input type="text" class="email" placeholder="Email">
-                                    <i class="fa fa-envelope"></i>
-                                </p>
-                                <p class="comment-for-url">
-                                    <input type="url" class="url" placeholder="Website">
-                                    <i class="fa fa-link"></i>
-                                </p>
-                                <p class="comment-for-content">
-                                    <textarea class="comment" name="comment">Comment</textarea>
-                                    <i class="fa fa-comment"></i>
-                                </p>
-                                <p class="comment-for-submit">
-                                    <input name="submit" type="submit" id="submit" class="submit" value="Submit form">
-                                </p>
+                        <?php
+                            echo '<h1 class="large-ttle">Contact Us</h1>';
+                            echo '<div id="contact-form" class="contact-respond">';
+                            echo '<h3 class="tz-title">Leave us a message</h3>';
+                            echo '<form id="commentform" class="contact-form-7">';
+                            echo '<p class="comment-for-author">';
+                            echo '<input type="text" class="author" placeholder="Name">';
+                            echo '<i class="fa fa-user"></i>';
+                            echo '</p>';
+                            echo '<p class="comment-for-email">';
+                            echo '<input type="text" class="email" placeholder="Email">';
+                            echo '<i class="fa fa-envelope"></i>';
+                            echo '</p>';
+                            echo '<p class="comment-for-url">';
+                            echo '<input type="url" class="url" placeholder="Website">';
+                            echo '<i class="fa fa-link"></i>';
+                            echo '</p>';
+                            echo '<p class="comment-for-content">';
+                            echo '<textarea class="comment" name="comment">Comment</textarea>';
+                            echo '<i class="fa fa-comment"></i>';
+                            echo '</p>';
+                            echo '<p class="comment-for-submit">';
+                            echo '<input name="submit" type="submit" id="submit" class="submit" value="Submit form">';
+                            echo '</p>';
+                            ?>
                             </form>
                         </div>
                         <div class="map">
@@ -301,35 +268,30 @@
                 </div>
             </div>
         </div>
-        <!--End Start Blog-->
-
-        
-
-        <!--Start Footer-->
         <footer class="tz-footer">
             <div class="footer-widget">
                 <div class="container">
-
-                    <!--Start footer left-->
                     <div class="footer-left">
                         <div class="contact-info widget">
-                            <h3 class="widget-title">Contact info</h3>
-                            <ul>
-                                <li>
-                                    <span>Address :</span>
-                                    <address>
-                                        San Miguel, #73 D.Reyes St. <br> Boac, Marinduque
-                                    </address>
-                                </li>
-                                <li>
-                                    <span>Phone :</span>
-                                    09270454469
-                                </li>
-                                <li>
-                                    <span>Email :</span>
-                                    bikesport@gmail.com
-                                </li>
-                            </ul>
+                        <?php
+                        echo '<h3 class="widget-title">Contact info</h3>';
+                        echo '<ul>';
+                        echo '<li>';
+                        echo '<span>Address :</span>';
+                        echo '<address>';
+                        echo 'San Miguel, #73 D.Reyes St. <br> Boac, Marinduque';
+                        echo '</address>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<span>Phone :</span>';
+                        echo '09270454469';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<span>Email :</span>';
+                        echo 'bikesport@gmail.com';
+                        echo '</li>';
+                        echo '</ul>';
+                        ?>
                         </div>
                         <div class="widget">
                             <form class="tz-subcribe">
@@ -338,125 +300,119 @@
                             </form>
                         </div>
                         <div class="widget">
-                            <ul class="tz-social">
-                                <li>
-                                    <a class="fa fa-facebook" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-twitter" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-google-plus" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-tumblr" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-flickr" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="fa fa-pinterest" href="#"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End footer left-->
-
-                    <!--Start footer right-->
-                    <div class="footer-right">
-                        <div class="tz-widget-clients widget">
-                            <h3 class="widget-title">What clients say?</h3>
-                            <div class="tz-widget-say">
-                                <img src="images/product/anonymous-avatar-icon.jpg" alt="Vincent Ray Orbien">
-                                <div class="entry-say">
-                                    <p>This Bikes are great!</p>
-                                    <span>Vincent Ray Orbien</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="widget widget_nav_menu">
-                                    <h3 class="widget-title">HOW TO BUY</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Returns</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Site Map</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Brands</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Gift Vouchers</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="widget widget_nav_menu">
-                                    <h3 class="widget-title">MY ACCOUNT</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">My Account</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Order History</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Wish List</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Newsletter</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Specials</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="widget widget_nav_menu">
-                                    <h3 class="widget-title">Infomation</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Returns</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contact Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Term & Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Privacy Policy</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End footer right-->
-                </div>
-            </div>
-            <div class="tz-copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <p>Copyright &copy; 2022 BikeSport by Corey Nepomuceno. All rights reserved.</p>
-                            </div>
-        </footer>
-        <!--End Footer-->
-
-    </div>
-    <!--End class site-->
+                        <?php
+                    echo '<ul class="tz-social">';
+                    echo '<li>';
+                    echo '<a class="fa fa-facebook" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-twitter" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-google-plus" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-tumblr" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-flickr" href="#"></a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a class="fa fa-pinterest" href="#"></a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="footer-right">';
+                    echo '<div class="tz-widget-clients widget">';
+                    echo '<h3 class="widget-title">What clients say?</h3>';
+                    echo '<div class="tz-widget-say">';
+                    echo '<img src="images/product/anonymous-avatar-icon.jpg" alt="Vincent Ray Orbien">';
+                    echo '<div class="entry-say">';
+                    echo '<p>This Bikes are great!</p>';
+                    echo '<span>Vincent Ray Orbien</span>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="row">';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">HOW TO BUY</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">Contact Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Returns</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Site Map</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Brands</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Gift Vouchers</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">MY ACCOUNT</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">My Account</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Order History</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Wish List</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Newsletter</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Specials</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<div class="col-md-4">';
+                    echo '<div class="widget widget_nav_menu">';
+                    echo '<h3 class="widget-title">Infomation</h3>';
+                    echo '<ul>';
+                    echo '<li>';
+                    echo '<a href="#">About Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Returns</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Contact Us</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Term & Conditions</a>';
+                    echo '</li>';
+                    echo '<li>';
+                    echo '<a href="#">Privacy Policy</a>';
+                    echo '</li>';
+                    echo '</ul>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '</div>';echo '<div class="tz-copyright">';
+                    echo '<div class="container">';
+                    echo '<div class="row">';
+                    echo '<div class="col-md-6 col-sm-6">';
+                    echo '<p>Copyright &copy; 2022 BikeSport by Corey Nepomuceno. All rights reserved.</p>';
+                    echo '</div>';
+                    echo '</footer>';
+                    echo '</div>';
+                    ?>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
