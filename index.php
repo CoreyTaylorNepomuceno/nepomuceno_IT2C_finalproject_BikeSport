@@ -22,52 +22,50 @@
             <div class="container">
                 <div class="header-top">
                     <ul class="pull-left">
-<?php
-                    echo '<li>';
-                    echo '<a href="#">';
-                    echo 'PHP';
-                    echo '<span class="fa fa-angle-down tz-down"></span>';
-                    echo '</a>';
-                    echo '<ul class="sub-menu">';
-                    echo '<li>';
-                    echo '<a href="#">EURO</a>';
-                    echo '</li>';
-                    echo '<li>';
-                    echo '<a href="#">USD</a>';
-                    echo '</li>';
-                    echo '<li>';
-                    echo '<a href="#">PHP</a>';
-                    echo '</li>';
-                    echo '</ul>';
-                    echo '</li>';
-                    echo '<li>';
-                    echo '<a href="#">';
-                    echo 'English';
-                    echo '<span class="fa fa-angle-down tz-down"></span>';
-                    echo '</a>';
-                    echo '</li>';
-                    echo '<li>';
-                    echo '<a href="#">Call us:   09270454469</a>';
-                    echo '</li>';
-?>
-                    </ul>
-                    <ul class="pull-right">
-                        <li>
-                            <a href="shop-register.html">My Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Wishlist</a>
-                        </li>
-                        <li>
-                            <a href="shop-cart.html">My Cart</a>
-                        </li>
-                        <li>
-                            <a href="shop-checkout.html">Checkout</a>
-                        </li>
-                        <li class="tz-header-login">
-                            <a href="#">Login</a>
-                            <div class="tz-login-form">
-                            <?php
+                    <?php
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'PHP';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '<ul class="sub-menu">';
+                        echo '<li>';
+                        echo '<a href="#">EURO</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">USD</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">PHP</a>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">';
+                        echo 'English';
+                        echo '<span class="fa fa-angle-down tz-down"></span>';
+                        echo '</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Call us:   09270454469</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-register.html">My Account</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="#">Wishlist</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-cart.html">My Cart</a>';
+                        echo '</li>';
+                        echo '<li>';
+                        echo '<a href="shop-checkout.html">Checkout</a>';
+                        echo '</li>';
+                        echo '<li class="tz-header-login">';
+                        ?>
+                        <a href="#">Login</a>
+                        <div class="tz-login-form">
+                        <?php
                         echo '<form>';
                         echo '<p class="form-content">';
                         echo '<label for="username">Username / Email</label>';
@@ -85,15 +83,13 @@
                         echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
                         echo '</p>';
                         echo '</form>';
-?>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header-content">
-                    <h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>
-                    <div class="tz-search pull-right">
-                    <?php
+                        echo '</div>';
+                        echo '</li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        echo '<div class="header-content">';
+                        echo '<h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>';
+                        echo '<div class="tz-search pull-right">';
                         echo '<form>';
                         echo '<label class="select-arrow">';
                         echo '<select name="category">';
@@ -108,20 +104,18 @@
                         echo '<input type="text" class="tz-query" id="tz-query" value="" placeholder="Search for product">';
                         echo '<button type="submit"></button>';
                         echo '</form>';
-?>
-                    </div>
-                </div>
-            </div>
-            <nav class="tz-menu-primary">
-                <div class="container">
-                    <ul class="tz-main-menu pull-left nav-collapse">
-                    <?php
+                        echo '';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '<nav class="tz-menu-primary">';
+                        echo '<div class="container">';
+                        echo '<ul class="tz-main-menu pull-left nav-collapse">';
                         echo '<li>';
                         echo '<a href="index.html">Home</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">';
-                        echo 'category';
+                        echo '<a href="shop.html">category';
                         echo '<span class="red-light">On sale!</span>';
                         echo '</a>';
                         echo '</li>';
@@ -154,10 +148,8 @@
                         echo '<li>';
                         echo '<a href="contact.html">Contact</a>';
                         echo '</li>';
-?>
-                    </ul>
-                    <ul class="tz-ecommerce-meta pull-right">
-                    <?php
+                        echo '</ul>';
+                        echo '<ul class="tz-ecommerce-meta pull-right">';
                         echo '<li class="tz-menu-wishlist">';
                         echo '<a href="#"><strong>0</strong></a>';
                         echo '</li>';
@@ -170,6 +162,20 @@
                         echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
                         echo '<span class="mini-cart-meta">';
                         echo '<a href="single-product.html">₱600</a>';
+                        echo '<span class="mini-meta">';
+                        echo '<span class="mini-color">Color: <i class="orange"></i></span>';
+                        echo '<span class="mini-qty">Qty: 1</span>';
+                        echo '</span>';
+                        echo '</span>';
+                        echo '</div>';
+                        echo '<span class="mini-cart-delete"><img src="images/delete.png" alt="delete"></span>';
+                        echo '</li>';
+                        echo '<li class="mini-cart-content">';
+                        echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
+                        echo '<div class="mini-cart-ds">';
+                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<span class="mini-cart-meta">';
+                        echo '<a href="single-product.html">₱2500</a>';
                         echo '<span class="mini-meta">';
                         echo '<span class="mini-color">Color: <i class="orange"></i></span>';
                         echo '<span class="mini-qty">Qty: 1</span>';
