@@ -58,7 +58,7 @@
                         echo '<a href="shop-cart.html">My Cart</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-checkout.html">Checkout</a>';
+                        echo '<a href="shop-checkout.php">Checkout</a>';
                         echo '</li>';
                         echo '<li class="tz-header-login">';
                         ?>

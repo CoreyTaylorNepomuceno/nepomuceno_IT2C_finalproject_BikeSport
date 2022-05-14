@@ -50,16 +50,16 @@
                         echo '<a href="#">Call us:   09270454469</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-register.html">My Account</a>';
+                        echo '<a href="shop-register.php">My Account</a>';
                         echo '</li>';
                         echo '<li>';
                         echo '<a href="#">Wishlist</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-cart.html">My Cart</a>';
+                        echo '<a href="shop-cart.php">My Cart</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-checkout.html">Checkout</a>';
+                        echo '<a href="shop-checkout.php">Checkout</a>';
                         echo '</li>';
                         echo '<li class="tz-header-login">';
                         ?>
@@ -80,7 +80,7 @@
                         echo '<button type="submit" class="pull-right button_class">LOGIN</button>';
                         echo '</p>';
                         echo '<p class="form-text">';
-                        echo 'Dont have an account? <a href="shop-register.html">Register Here</a>';
+                        echo 'Dont have an account? <a href="shop-register.php">Register Here</a>';
                         echo '</p>';
                         echo '</form>';
                         echo '</div>';
@@ -88,7 +88,7 @@
                         echo '</ul>';
                         echo '</div>';
                         echo '<div class="header-content">';
-                        echo '<h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>';
+                        echo '<h3 class="tz-logo pull-left"><a href="index.php"><img src="images/logo.png" alt="home" /></a></h3>';
                         echo '<div class="tz-search pull-right">';
                         echo '<form>';
                         echo '<label class="select-arrow">';
@@ -112,41 +112,41 @@
                         echo '<div class="container">';
                         echo '<ul class="tz-main-menu pull-left nav-collapse">';
                         echo '<li>';
-                        echo '<a href="index.html">Home</a>';
+                        echo '<a href="index.php">Home</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">category';
+                        echo '<a href="shop.php">category';
                         echo '<span class="red-light">On sale!</span>';
                         echo '</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">Bikes</a>';
+                        echo '<a href="shop.php">Bikes</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">Gear</a>';
+                        echo '<a href="shop.php">Gear</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">Shop</a>';
+                        echo '<a href="shop.php">Shop</a>';
                         echo '<ul class="sub-menu">';
                         echo '<li>';
-                        echo '<a href="shop-cart.html">Shop Cart</a>';
+                        echo '<a href="shop-cart.php">Shop Cart</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-checkout.html">Shop Checkout</a>';
+                        echo '<a href="shop-checkout.php">Shop Checkout</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-register.html">Shop Register</a>';
+                        echo '<a href="shop-register.php">Shop Register</a>';
                         echo '</li>';
                         echo '</ul>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="blog.html">';
+                        echo '<a href="blog.php">';
                         echo 'Blog';
                         echo '<span class="cyan-dark">Best off!</span>';
                         echo '</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="contact.html">Contact</a>';
+                        echo '<a href="contact.php">Contact</a>';
                         echo '</li>';
                         echo '</ul>';
                         echo '<ul class="tz-ecommerce-meta pull-right">';
@@ -154,14 +154,14 @@
                         echo '<a href="#"><strong>0</strong></a>';
                         echo '</li>';
                         echo '<li class="tz-mini-cart">';
-                        echo '<a href="shop-cart.html"><strong>2</strong>Cart : ₱3100</a>';
+                        echo '<a href="shop-cart.php"><strong>2</strong>Cart : ₱3100</a>';
                         echo '<ul class="cart-inner">';
                         echo '<li class="mini-cart-content">';
                         echo '<div class="mini-cart-img"><img src="images/product/shorts.png" alt="product search one"></div>';
                         echo '<div class="mini-cart-ds">';
-                        echo '<h6><a href="single-product.html">Liv Race Day Short</a></h6>';
+                        echo '<h6><a href="single-product.php">Liv Race Day Short</a></h6>';
                         echo '<span class="mini-cart-meta">';
-                        echo '<a href="single-product.html">₱600</a>';
+                        echo '<a href="single-product.php">₱600</a>';
                         echo '<span class="mini-meta">';
                         echo '<span class="mini-color">Color: <i class="orange"></i></span>';
                         echo '<span class="mini-qty">Qty: 1</span>';
@@ -173,9 +173,9 @@
                         echo '<li class="mini-cart-content">';
                         echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
                         echo '<div class="mini-cart-ds">';
-                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<h6><a href="single-product.php">Shimano Cleats Pedal</a></h6>';
                         echo '<span class="mini-cart-meta">';
-                        echo '<a href="single-product.html">₱2500</a>';
+                        echo '<a href="single-product.php">₱2500</a>';
                         echo '<span class="mini-meta">';
                         echo '<span class="mini-color">Color: <i class="orange"></i></span>';
                         echo '<span class="mini-qty">Qty: 1</span>';
@@ -187,9 +187,9 @@
                         echo '<li class="mini-cart-content">';
                         echo '<div class="mini-cart-img"><img src="images/product/shimanocleats.png" alt="product search one"></div>';
                         echo '<div class="mini-cart-ds">';
-                        echo '<h6><a href="single-product.html">Shimano Cleats Pedal</a></h6>';
+                        echo '<h6><a href="single-product.php">Shimano Cleats Pedal</a></h6>';
                         echo '<span class="mini-cart-meta">';
-                        echo '<a href="single-product.html">₱2500</a>';
+                        echo '<a href="single-product.php">₱2500</a>';
                         echo '<span class="mini-meta">';
                         echo '<span class="mini-color">Color: <i class="orange"></i></span>';
                         echo '<span class="mini-qty">Qty: 1</span>';
@@ -351,7 +351,7 @@
                              data-elementdelay="0.1"
                              data-endelementdelay="0.1"
                              data-endspeed="1000"
-                             data-endeasing="Power4.easeOut"><a href='shop.html' class='buttom_bike'>Shop Now</a>
+                             data-endeasing="Power4.easeOut"><a href='shop.php' class='buttom_bike'>Shop Now</a>
                         </div>
                     </li>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="700"  data-saveperformance="off" >
@@ -378,7 +378,7 @@
                              data-splitout="none"
                              data-elementdelay="0.1"
                              data-endelementdelay="0.1"
-                             data-endspeed="300"><a href='shop.html' class='buttom_bike'>Shop Now</a>
+                             data-endspeed="300"><a href='shop.php' class='buttom_bike'>Shop Now</a>
                         </div>
                     </li>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="700"  data-saveperformance="off" >
@@ -555,7 +555,7 @@ echo '</ul>';
                                         <?php
 echo '<img src="images/product/roadbike-feature.png" alt="product 1" />';
 echo '<div class="product-meta">';
-echo '<a class="add-to-cart" href="shop-cart.html">Add to cart</a>';
+echo '<a class="add-to-cart" href="shop-cart.php">Add to cart</a>';
 echo '<span class="quick-view">';
 echo '<a href="#">Quick view</a>';
 echo '</span>';
@@ -564,7 +564,7 @@ echo '</div>';
                                         </div>
                                         <div class="product-infomation">
                                         <?php
-echo '<h4><a href="single-product.html">Genesis SL 0</a></h4>';
+echo '<h4><a href="single-product.php">Genesis SL 0</a></h4>';
 echo '<span class="product-price">₱189,900</span>';
 echo '<span class="product-attr">';
 echo '<i class="fa fa-circle light-blue"></i>';
@@ -583,7 +583,7 @@ echo '</span>';
                                         <?php
 echo '<img src="images/product/roadbike-feature1.png" alt="product 2" />';
 echo '<div class="product-meta">';
-echo '<a class="add-to-cart" href="shop-cart.html">Add to cart</a>';
+echo '<a class="add-to-cart" href="shop-cart.php">Add to cart</a>';
 echo '<span class="quick-view">';
 echo '<a href="#">Quick view</a>';
 echo '</span>';
@@ -592,7 +592,7 @@ echo '</div>';
                                         </div>
                                         <div class="product-infomation">
                                         <?php
-echo '<h4><a href="single-product.html">Defy Advanced SL</a></h4>';
+echo '<h4><a href="single-product.php">Defy Advanced SL</a></h4>';
 echo '<span class="product-price">₱230,000</span>';
 echo '<span class="product-attr">';
 echo '<i class="fa fa-circle light-blue"></i>';
@@ -611,7 +611,7 @@ echo '</span>';
                                         <?php
 echo '<img src="images/product/roadbike-feature2.png" alt="product 3" />';
 echo '<div class="product-meta">';
-echo '<a class="add-to-cart" href="shop-cart.html">Add to cart</a>';
+echo '<a class="add-to-cart" href="shop-cart.php">Add to cart</a>';
 echo '<span class="quick-view">';
 echo '<a href="#">Quick view</a>';
 echo '</span>';
@@ -620,7 +620,7 @@ echo '</div>';
                                         </div>
                                         <div class="product-infomation">
                                         <?php
-echo '<h4><a href="single-product.html">FastRoad CoMax</a></h4>';
+echo '<h4><a href="single-product.php">FastRoad CoMax</a></h4>';
 echo '<span class="product-price">₱200,000</span>';
 echo '<span class="product-attr">';
 echo '<i class="fa fa-circle light-blue"></i>';
@@ -651,7 +651,7 @@ echo '<li>';
 echo '<div id="defaultCountdown" class="tzCountdown"></div>';
 echo '</li>';
 echo '<li>';
-echo '<h3><a href="single-product.html">Propel Advanced Pro Frameset</a></h3>';
+echo '<h3><a href="single-product.php">Propel Advanced Pro Frameset</a></h3>';
 echo '<span class="product-rating">';
 echo '<i class="fa fa-star"></i>';
 echo '<i class="fa fa-star"></i>';
@@ -675,7 +675,7 @@ echo 'In stock : 10';
 echo '</span>';
 echo '</li>';
 echo '<li class="event-footer">';
-echo '<a href="shop-cart.html" class="add-to-cart">Add to cart</a>';
+echo '<a href="shop-cart.php" class="add-to-cart">Add to cart</a>';
 echo '<a href="#" class="add-to-wishlist">Add to wishlist</a>';
 echo '</li>';
 echo '</ul>';

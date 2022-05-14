@@ -368,7 +368,7 @@
                                             echo '<a href="#" class="fa fa-pinterest"></a>';
                                             echo '</div>';                                          
                                             echo '<nav class="post-navigation">';
-                                            echo '<a class="prev pull-left" href="single-blog.html">Previous post</a>';
+                                            echo '<a class="prev pull-left" href="single-blog.php">Previous post</a>';
                                             echo '<a class="Next pull-right" href="single-blog.html">Next post</a>';
                                             echo '</nav>';
                                             echo '</article>';

@@ -49,7 +49,7 @@
                         echo '<a href="#">Call us:   09270454469</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-register.html">My Account</a>';
+                        echo '<a href="shop-register.php">My Account</a>';
                         echo '</li>';
                         echo '<li>';
                         echo '<a href="#">Wishlist</a>';

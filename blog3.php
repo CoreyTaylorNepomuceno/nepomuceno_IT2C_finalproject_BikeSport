@@ -55,7 +55,7 @@
                         echo '<a href="#">Wishlist</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop-cart.html">My Cart</a>';
+                        echo '<a href="shop-cart.php">My Cart</a>';
                         echo '</li>';
                         echo '<li>';
                         echo '<a href="shop-checkout.html">Checkout</a>';

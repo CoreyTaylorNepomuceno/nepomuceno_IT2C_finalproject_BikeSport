@@ -121,7 +121,7 @@
                         echo '<a href="shop.html">Bikes</a>';
                         echo '</li>';
                         echo '<li>';
-                        echo '<a href="shop.html">Gear</a>';
+                        echo '<a href="shop.php">Gear</a>';
                         echo '</li>';
                         echo '<li>';
                         echo '<a href="shop.html">Shop</a>';

@@ -465,7 +465,7 @@
                 echo '<div class="product-thubnail">';
                 echo '<img src="images/product/roadbike-feature.png" alt="product 4" />';
                 echo '<div class="product-meta">';
-                echo '<a class="add-to-cart" href="shop-cart.html">Add to cart</a>';
+                echo '<a class="add-to-cart" href="shop-cart.php">Add to cart</a>';
                 echo '<span class="quick-view">';
                 echo '<a href="#">Quick view</a>';
                 echo '</span>';
