@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE BikeSport[
+    <!ELEMENT BikeSport (product)>
+
+    <!ELEMENT product (name, price)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+
+]>
+
+
+<BikeSport>
+    <product>
+        <name>Pivot Mountain Bike</name>
+        <price>₱367,493</price>
+    </product>
+
+     <product>
+        <name>Niner Mountain Bike</name>
+        <price>₱162,000</price>
+    </product>
+
+    <product>
+        <name>Giant Mountain Bike</name>
+        <price>₱78,000</price>
+    </product>
+
+    <product>
+        <name>GT Mountain Bike</name>
+        <price>₱20,000</price>
+    </product>
+
+    <product>
+        <name>Santa Cruz Mountain Bike</name>
+        <price>₱400,000</price>
+    </product>
+
+    <product>
+        <name>Specialized Mountain Bike</name>
+        <price>₱128,000</price>
+    </product>
+
+    <product>
+        <name>Cervelo Road Bike</name>
+        <price>₱145,000</price>
+    </product>
+
+    <product>
+        <name>S-Works Road Bike</name>
+        <price>₱260,000</price>
+    </product>
+    
+    <product>
+        <name>Specialized Road Bike</name>
+        <price>₱167,000</price>
+    </product>
+
+    <product>
+        <name>Trek Road Bike</name>
+        <price>₱300,000</price>
+    </product>
+
+    <product>
+        <name>Lapierre Road Bike</name>
+        <price>₱105,000</price>
+    </product>
+    
+    <product>
+        <name>Jay Jo Fixie Bike</name>
+        <price>₱23,000</price>
+    </product>
+
+    <product>
+        <name>Baby Blue BMX</name>
+        <price>₱14,000</price>
+    </product>
+
+    <product>
+        <name>Gradient BnW BMX</name>
+        <price>₱12,000</price>
+    </product>
+
+    <product>
+        <name>Classic Red BMX</name>
+        <price>₱15,000</price>
+    </product>
+
+    <product>
+        <name>Gold BMX</name>
+        <price>₱21,000</price>
+    </product>
+    
+    <product>
+        <name>Dark Knight BMX</name>
+        <price>₱27,000</price>
+    </product>
+
+    <product>
+        <name>Classic BMX</name>
+        <price>₱12,000</price>
+    </product>
+
+    <product>
+        <name>Pink Kiddy</name>
+        <price>₱6,000</price>
+    </product>
+
+    <product>
+        <name>Basket Kiddy</name>
+        <price>₱7,000</price>
+    </product>
+
+    <product>
+        <name>Paw Patrol Kiddy</name>
+        <price>₱10,000</price>
+    </product>
+
+    <product>
+        <name>Racer Kiddy</name>
+        <price>₱11,000</price>
+    </product>
+
+    <product>
+        <name>Policeman Kiddy</name>
+        <price>₱11,000</price>
+    </product>
+
+    <product>
+        <name>Carbon Kiddy</name>
+        <price>₱90,000</price>
+    </product>
+
+    <product>
+        <name>Fixed Gear Classic</name>
+        <price>₱60,000</price>
+    </product>
+
+    <product>
+        <name>All White Fixed Gear</name>
+        <price>₱22,000</price>
+    </product>
+
+    <product>
+        <name>Classic Red Fixed Gear</name>
+        <price>₱78,000</price>
+    </product>
+
+    <product>
+        <name>Wabi Yellow</name>
+        <price>₱26,000</price>
+    </product>
+
+    <product>
+        <name>Aventon Fixed Gear</name>
+        <price>₱30,000</price>
+    </product>
+
+    <product>
+        <name>Mint Green Xunwhuk</name>
+        <price>₱24,000</price>
+    </product>
+</BikeSport>
